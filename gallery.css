@@ -12,7 +12,6 @@ hr{
     border-top:0;
     border-left:0;
     border-right:0;
-    padding-top: 5px;
 }
 h2{
     padding-top:2%;
@@ -22,12 +21,15 @@ h2{
 p{
     padding-top: 7px;
     padding-bottom:7px;
+    
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color:#F4F4F4;
+    background-color: #E5E5E5;
+
 }
+
 
 nav ul {
     list-style-type: none;
@@ -35,18 +37,17 @@ nav ul {
     top:0;
     left:0;
     margin:0;
-    position:absolute;
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
     padding:30px;
     background-color:#F4F4F4;
     box-shadow: 0 1px 8px rgb(66, 64, 64);
-    z-index: 2;
+    
 }
 
 nav .first-link{
-    padding-right:850px;
+    padding-right: 850px;
     font-weight:700;
     font-size: 25px;
     
@@ -70,21 +71,24 @@ nav ul li a:hover{
 }
 
 .wrapper{
-    width:70%;
-    height:auto;
+    width:80%;
     margin:0 auto;
-    margin-top: 7%;
+    margin-top:2%;
+    margin-bottom:2%; 
     padding:40px;
-    background-color:rgba(226, 233, 235, 0.3);
-    border:10px solid rgb(194, 194, 194);
+    text-align: justify;
+    background-color:rgba(255, 255, 255,0.315);
+    border:10px solid rgb(201, 201, 201);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(115, 115, 129);
 }
 
 footer{
     width:100%;
-    margin:0;
+    text-align: center;   
+    font-size:12px;
     padding:20px;
-    background-color:black;
+    background-color: rgb(39, 38, 38);
     color:white;
-    text-align:center;
 }
 
